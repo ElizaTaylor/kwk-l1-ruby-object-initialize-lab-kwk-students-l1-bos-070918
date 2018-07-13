@@ -1,5 +1,7 @@
 # dog.rb
 class Dog 
   attr_accessor :name 
-  def initialize(name)
+  attr_reader :breed 
+  def initialize(name, breed)
     @name = name 
+    
